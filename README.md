@@ -1,7 +1,7 @@
 # StepCounter
 Step counter app for Amazfit Pace smartwatch
 
-![](\B4A\Objects\res\drawable\icon.png)
+![](/B4A/Objects/res/drawable/icon.png)
 
 ## 🚀 Usage
 
