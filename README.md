@@ -35,6 +35,6 @@ Please ⭐️ this repository if this project helped you!
 
 StepCounter is Copyright © 2021 Fotios Kossyvas. A copy of the license is available in the distributed LICENSE file.
 
-StepCounter has been developed using the amazing [B4A](https://www.b4x.com/b4a.html) from Anywhere Software
-The app icon is based on the Counter icon by [icons8](https://icons8.com/)
+- StepCounter has been developed using the amazing [B4A](https://www.b4x.com/b4a.html) from Anywhere Software
+- The app icon is based on the Counter icon by [icons8](https://icons8.com/)
 
