@@ -16,6 +16,9 @@ Sub Class_Globals
 	Private xui As XUI
 	Private MySteps As Int = 0
 	Private LblSteps As Label
+	Private LblClock As Label
+	Dim T1 As Timer
+	Dim Awake1 As PhoneWakeState
 End Sub
 
 Public Sub Initialize
@@ -27,6 +30,10 @@ Private Sub B4XPage_Created (Root1 As B4XView)
 	Root = Root1
 	Root.LoadLayout("MainPage")
 	UpdateSteps
+	T1.Initialize("T1",DateTime.TicksPerSecond)
+	DateTime.TimeFormat="hh:mm"
+	T1.Enabled=True
+	Awake1.KeepAlive(False)
 End Sub
 
 'You can see the list of page related events in the B4XPagesManager object. The event name is B4XPage.
@@ -43,4 +50,12 @@ End Sub
 
 Private Sub UpdateSteps
 	LblSteps.Text=MySteps
+End Sub
+
+Sub T1_Tick
+	UpdateLblClock
+End Sub
+
+Sub UpdateLblClock
+	LblClock.Text=DateTime.Time(DateTime.Now)
 End Sub

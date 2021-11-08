@@ -7,5 +7,6 @@ ModuleBreakpoints2=
 ModuleClosedNodes0=
 ModuleClosedNodes1=
 ModuleClosedNodes2=
+NavigationStack=B4XMainPage,UpdateSteps,42,0,Main,Create_Menu,61,0,B4XMainPage,UpdateLblClock,48,0,Main,Activity_Resume,47,0,Main,Process_Globals,18,1,Main,Activity_Create,26,1,B4XMainPage,B4XPage_Created,29,1,Visual Designer,MainPage.bal,-100,5,B4XMainPage,Class_Globals,14,0
 SelectedBuild=0
 VisibleModules=1,2
