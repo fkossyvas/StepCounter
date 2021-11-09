@@ -31,9 +31,19 @@ Private Sub B4XPage_Created (Root1 As B4XView)
 	Root.LoadLayout("MainPage")
 	UpdateSteps
 	T1.Initialize("T1",DateTime.TicksPerSecond)
-	DateTime.TimeFormat="hh:mm"
+	DateTime.TimeFormat="HH:mm"
 	T1.Enabled=True
 	Awake1.KeepAlive(False)
+End Sub
+
+Private Sub B4XPage_Background
+	Awake1.ReleaseKeepAlive
+	T1.Enabled=False
+End Sub
+
+Private Sub B4XPage_Foreground
+	Awake1.KeepAlive(False)
+	T1.Enabled=True
 End Sub
 
 'You can see the list of page related events in the B4XPagesManager object. The event name is B4XPage.
