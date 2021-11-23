@@ -8,6 +8,7 @@ Step counter app for Amazfit Pace smartwatch
 Download the repository, open the /B4A/StepCounter.b4a and compile the project. Get the file \B4A\Objects\StepCounter.apk and install in on Amazfit Pace. 
 You can find and launch the app in the app list, if you don't have the list you can enable it using [these](https://forum.xda-developers.com/t/amazfit-enable-app-list-on-us-cn-through-adb.3574454/), [these](https://www.youtube.com/watch?v=Skhf-jiN2kQ) or [these](https://techwiser.com/install-apk-on-amazfit-pace/) istructions (or just search Amazfit Enable app list).
 The app has a label for the counter and two buttons, the first on the left adds 1 step on the counter while the other one resets the counter.
+
 ![](screenshot.png)
 
 ## 🤝 Contributing
